@@ -1,0 +1,281 @@
+/*
+*Theme Name: quan
+ * Description: Đây là một theme đơn giản để thực hành Lập trình theme WordPress
+ * Theme URI: http://tenwebcuaban
+ * Version: 1.0 //phien bản bạn muốn đặt
+ * Author: quan
+ * Author URI: http://webcuatacgia
+* Tags: starter theme, framework theme, two-columns, customize // cho mọi người tìm kiếm
+ * Textdomain: tên domain của bạn
+ */
+
+
+ul{padding: 0}
+li{list-style: none}
+a:hover{text-decoration: none!important;}
+.navbar {background: #b0dcdd!important;
+    height: 170px;
+    margin: 0!important;
+    border: 0!important;}
+.navbar li a{position: relative;
+    display: block;}
+.logo img{    padding-left: 55%;
+    height: 150px;
+}
+.collapse ul li a{    color: black !important;
+    text-align: center;}
+nav .collapse ul li:hover{background: black}
+nav .collapse ul li a:hover {color: yellow !important;}
+.container-fluid{padding-top: 15px;}
+.navbar-header ul li:hover{    background: #FF8C00;
+    padding-left: 10px;
+    height: 50px;
+    text-align: center;}
+.navbar-header ul li a{color: white!important;}
+.lh{    padding-top: 30px;}
+.lh ul li p{        color: #FF8C00;
+    padding-left: 20%;
+    font-size: 13px;
+    float: left;
+    padding-right: 10px;
+    text-align: right;}
+.lh ul li img {    height: 30px;}
+.nen{    background: #b0dcdd !important;}
+.nen div img{    max-width: 100%;
+    min-width: 100%;}
+.carousel-caption button a p{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;}
+.carousel-caption{    right: 1%;
+    left: 80%;
+    padding-bottom: 30px;}
+.carousel-caption button{background: #7CFC00;}
+.tb2 .find{
+    text-align: center;
+    background: #f07635;}
+.find1{    padding-top: 42px;
+    padding-left: 28%;}
+.find ul li p{       color: #fbeee8;
+    font-size: 28px;
+    font-weight: bold;
+    }
+.find2{    padding-top: 42px;
+    padding-right: 23%}
+.tb2{    margin-top: -20px;}
+.ship{        height: 280px;
+    padding-top: 15%;
+    text-align: center;}
+.ship h2{    color: #199883;
+    font-weight: bold;
+    font-size: 40px;}
+.ship ul li p{font-size: 17px;
+    color: #999;
+    font-weight: bold;}
+.voi{    padding-top: 27%;
+    overflow: hidden;
+    padding-left: 17%;}
+.shop{    padding-left: 3%;
+    padding-top: 4%;
+    font-size: 13px;}
+.shop h3{padding-left: 90px;
+    color: red;
+    font-size: 25px;}
+.per{       padding-right: 3%;
+    padding-top: 4%;
+    font-size: 13px;
+padding-left: 0px!important;
+padding-right: 0px!important;}
+.per h3{padding-left: 90px;
+    color: red;
+    font-size: 25px;}
+.kh1 img{width: 100%;}
+.what{overflow: hidden;
+    text-align: center;}
+.wha h3{    color: #61af9f;
+    font-weight: bold;
+    font-size: 35px;}
+.wha ul li p{    font-size: 17px;}
+.shhi div h3{    color: #ef7534;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;  }
+.shhi div ul li p{    text-align: left;
+    font-size: 13px;}
+.tb3{    margin-top: -20px;
+    overflow: hidden;
+    background: #eaf0e4;
+    height: 920px;}
+.kh2 img {width: 100%;}
+.sali h3{padding-top: 8%;
+    padding-left: 33%;
+    color: #1a9986;
+    font-weight: bold;
+    font-size: 39px;  }
+.sali ul li p{    padding-left: 33%;
+    padding-top: 15px;
+    font-size: 15px;}
+.aaa img {    padding-left: 65%;
+    padding-top: 25px;}
+div.bao
+{
+    width:100%; /* width va height la kich thuot buoc anh */
+    height:1065px;
+    background:url(image/nen2.png) repeat-x 72px 17px;/* anh muon nen */
+}
+div.bao2{width:100%; /* width va height la kich thuot buoc anh */
+    height:750px;
+    background: url(image/s.png) repeat-x 71px -10px;/* anh muon nen */}
+.nhu{    overflow: hidden;
+    padding-top: 30px;
+    }
+.nhu ul li{    float: left;
+    padding-right: 10px;}
+.nhu div{    overflow: hidden;
+    padding-bottom: 28px;}
+.dow{
+    padding-top: 35%;}
+.dow h3{    color: #189a82;
+    font-size: 34px;
+    font-weight: bold;
+    padding-left: 41%;
+}
+.dow ul li a img{    float: left;
+    padding-top: 15px;
+    padding-right: 2%;}
+.dow ul{    padding-left: 35%;}
+.bao3 img{    width: 100%;}
+.tb{    overflow: hidden;
+    background: #b0dcdd;
+    padding-bottom: 50px;}
+.ket{        height: 430px;
+    background: #199b83;
+    padding-top: 40px;}
+.ke1{    overflow: hidden;}
+.ke2{        height: 80px;
+    background: #0b6968;}
+.new{    text-align: center;
+    padding-bottom: 35px;}
+.new h3{    color: #6fbcb4;
+    font-weight: 100;
+    font-size: 6em;}
+.new ul li{    font-size: 20px;
+    font-weight: 100;}
+.tt1 img{        max-width: 100%;
+    min-width: 100%;}
+.tt{overflow: hidden;}
+.tt1{height: 370px;
+}
+.tt1 ul.mkh {    background: #199b83;
+    height: 370px;}
+.tt1 ul li img{    padding-bottom: 10px;
+    height: 320px;}
+.tt1 ul li a{color: white;
+    font-size: 13px;}
+.tt1 ul li ul{    text-align: center;
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    color: #7FFF00;}
+.tt1 ul li:hover ul{margin-left: -10px;
+    height: 368px;
+    width: 96%;
+    display: block;
+    padding-top: 16%;}
+
+.tt2{    height: 410px;
+    background: #b0dcdd;}
+.tt2 img{    max-width: 100%;
+    min-width: 100%;  }
+.tt2 ul.mkk2{       background: #f07635 !important;
+    color: white;
+    font-size: 13px;
+    height: 370px;}
+.tt2 ul li img{    padding-bottom: 10px;
+    height: 315px;}
+.tt2 ul li a{color: white;
+    font-size: 13px;}
+.tt2 ul li ul{    text-align: center;
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    color: #7FFF00;  }
+.tt2 ul li:hover ul{margin-left: -10px;
+    height: 368px;
+    width: 96%;
+    display: block;
+    padding-top: 30%;}
+.tt2 ul li:hover ul li{padding: 5px;}
+.tt2 ul.mkk2 li i{    padding: 10px;}
+.tt2 ul.mkk2 li p{    padding-left: 10px;}
+
+.tm img{    max-width: 100%;
+    min-width: 100%;}
+.tm1 img{height: 185px;}
+.tm{    margin-top: 25px;}
+.tm div ul{    background: #199b83;
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;}
+.k1 img{padding-bottom: 25px;}
+.k1{overflow: hidden;}
+.k11 {    padding-left: 4%;}
+.kk1 ul li p{    color: white;
+    font-size: 13px;
+    padding-bottom: 10px;}
+.k12 div h3{    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;}
+.k12 div ul li p{    color: white;
+    font-size: 13px;
+    font-weight: bold;}
+.k12 div ul li b{    color: yellow;
+    font-size: 13px;
+    font-weight: bold;}
+.k2{    padding-left: 75%;
+    height: 90px;}
+.k2 ul li{       float: left;}
+.k2 ul li p{padding-left: 15px;
+    padding-top: 30%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;}
+.ke21{    padding-top: 30px;
+    padding-left: 55px;}
+.ke21 ul li u{color: white;
+    font-size: 15px;
+    font-weight: bold;}
+.archive{    overflow: hidden;
+    background: #b0dcdd!important;}
+
+@media (max-width: 768px)
+{
+    .navbar-brand{color: black!important;}
+
+}
+@media (min-width: 768px)
+{
+    .navbar-header{display: none}
+
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    nav .logo  , .lh{width: 50%!important;}
+}
+@media (min-width: 320px) and (max-width:480px) {
+
+    .logo{width: 50%;
+        margin: auto;
+        float: none;}
+    .lh{display: none}
+}
+@media (max-width: 320px) {
+
+    .logo{width: 50%;
+        margin: auto;
+        float: none;}
+    .lh{display: none}
+}
